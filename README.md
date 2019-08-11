@@ -8,11 +8,11 @@ Instructions:
 
 2. Choose a path include the files: 
   
-  Structure.txt (the structure of the train set and the test set.)
+        Structure.txt (the structure of the train set and the test set.)
   
-  train.csv (the train set for the Naive Base Algorithm)
+        train.csv (the train set for the Naive Base Algorithm)
   
-  test.csv (the test set you would like to classify)
+        test.csv (the test set you would like to classify)
 
 3. Click "Build" and wait serval of minutes till success message will apear.
 
