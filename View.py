@@ -40,7 +40,7 @@ class View:
         else:
             tkMessageBox.showerror("Naive Bayes Classifier - Error", "This path - doesn't contain the requested files.")
 
-    def isRequestedFilesExist(self): #TODO
+    def isRequestedFilesExist(self): 
         expfiles = ["Structure.txt", "train.csv", "test.csv"]
         for path, subdirs, files in os.walk(self.dirPath):
             for name in files:
@@ -62,14 +62,14 @@ class View:
             self.buildButton.config(state='normal')
             return True
 
-    def isBinsNumberReal(self): #todo
+    def isBinsNumberReal(self): 
         try:
             int (self.binsNum)
             return True
         except:
             return False
 
-    def build(self): #TODO
+    def build(self): 
         if self.dirTextBox.get() == None or self.dirTextBox.get() == "":
             tkMessageBox.showerror("Naive Bayes Classifier - Error", "There is no path.")
         else:
@@ -82,10 +82,11 @@ class View:
             elif self.isDataEmpty():
                 tkMessageBox.showerror("Naive Bayes Classifier - Error", "This is an Empty File of Train.")
             else:
+                tkMessageBox.showinfo("Naive Bayes Classifier", "Build is going to start after you click agree. \n"
+                                                                "It may takes a few minutes and the messageBox going to be unable and black untill it's done.")
                 self.binsNum = int(self.discBinsBox.get())
                 self.loadTrainSet()
-                self.buildModel()
-
+                
     def classify(self):
         if not self.isRequestedFilesExist():
             tkMessageBox.showerror("Naive Bayes Classifier - Error", "This path - doesn't contain the requested files.")
@@ -97,8 +98,6 @@ class View:
     def loadTrainSet(self):
         self.classifier = Classifier(self.dirPath, self.binsNum)
 
-    def buildModel(self): #todo
-        pass
 
     def isDataEmpty(self):
         if (os.stat(self.dirPath+"/train.csv").st_size > 3):
