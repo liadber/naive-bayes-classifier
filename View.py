@@ -45,11 +45,9 @@ class View:
         for path, subdirs, files in os.walk(self.dirPath):
             for name in files:
                 if name.startswith("Structure.txt"):
-
                     expfiles.remove("Structure.txt")
 
                 elif name.startswith("train.csv"):
-
                     expfiles.remove("train.csv")
 
                 elif name.startswith("test.csv"):
