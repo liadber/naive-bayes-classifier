@@ -4,7 +4,7 @@ It's been written in Python using Pandas library for manipuliate the csv data fi
 
 *_Recommendations:_*
 
-1. Make sure you are using Python.7 as interpeter.
+1. Make sure you are using Python 2.7 as interpeter.
        
        Or you can download one from here https://www.python.org/downloads/release/python-2716/
        and then define it in File>Setting> Search "Project Interpreter".
