@@ -10,7 +10,7 @@ It's been written in Python using Pandas library for manipuliate the csv data fi
        and then define it in File>Setting> Search "Project Interpreter".
        After that you should download the library I imported by click on imported library and then ALT+ENTER, choose install.
 
-2. Make sure you open it with PyCharm version 2019.1.4
+2. Make sure you open it as project with PyCharm version 2019.1.4
 3. I'm using Windows 10 with 64 bits
 
 
