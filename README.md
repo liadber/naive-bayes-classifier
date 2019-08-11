@@ -1,0 +1,20 @@
+# Naive-Base-Classifier
+Classifier based Naive Base algorithm used m-estimetor=2. 
+It's been written in Python using Panda library for manipuliate the csv data files. 
+
+Instructions:
+
+1. Run the View.
+
+2. Choose a path include the files: 
+  2.1 Structure.txt (the structure of the train set and the test set.)
+  2.2 train.csv (the train set for the Naive Base Algorithm)
+  2.3 test.csv (the test set you would like to classify)
+
+3. Click "Build" and wait serval of minutes till success message will apear.
+
+4. Click "Classify"
+
+Good Luck!
+
+#Classifier #Python #Panda #TkInter #NaiveBase #M-estimate
