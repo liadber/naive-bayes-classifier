@@ -1,6 +1,6 @@
 # Naive-Bayes-Classifier
 Classifier based Naive Bayes algorithm used m-estimetor=2. 
-It's been written in Python using Panda library for manipuliate the csv data files. 
+It's been written in Python using Pandas library for manipuliate the csv data files. 
 
 Instructions:
 
@@ -26,4 +26,4 @@ Instructions:
 
 Good Luck!
 
-#Classifier #Python #Panda #TkInter #NaiveBayes #M-estimate
+#Classifier #Python #Pandas #TkInter #NaiveBayes #M-estimate
