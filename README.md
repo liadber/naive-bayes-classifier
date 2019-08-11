@@ -7,9 +7,10 @@ Instructions:
 1. Run the View.
 
 2. Choose a path include the files: 
-  2.1 Structure.txt (the structure of the train set and the test set.)
-  2.2 train.csv (the train set for the Naive Base Algorithm)
-  2.3 test.csv (the test set you would like to classify)
+  
+  Structure.txt (the structure of the train set and the test set.)
+  train.csv (the train set for the Naive Base Algorithm)
+  test.csv (the test set you would like to classify)
 
 3. Click "Build" and wait serval of minutes till success message will apear.
 
