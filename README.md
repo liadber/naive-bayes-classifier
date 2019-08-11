@@ -1,5 +1,5 @@
-# Naive-Base-Classifier
-Classifier based Naive Base algorithm used m-estimetor=2. 
+# Naive-Bayes-Classifier
+Classifier based Naive Bayes algorithm used m-estimetor=2. 
 It's been written in Python using Panda library for manipuliate the csv data files. 
 
 Instructions:
@@ -10,7 +10,7 @@ Instructions:
   
         Structure.txt (the structure of the train set and the test set.)
   
-        train.csv (the train set for the Naive Base Algorithm)
+        train.csv (the train set for the Naive Bayes Algorithm)
   
         test.csv (the test set you would like to classify)
 
@@ -20,4 +20,4 @@ Instructions:
 
 Good Luck!
 
-#Classifier #Python #Panda #TkInter #NaiveBase #M-estimate
+#Classifier #Python #Panda #TkInter #NaiveBayes #M-estimate
