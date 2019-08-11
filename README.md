@@ -18,7 +18,7 @@ It's been written in Python using Pandas library for manipuliate the csv data fi
  
 1. Run the View.
 
-2. Choose a path include the files: 
+2. Choose a path include the files that in /dir
   
         Structure.txt (the structure of the train set and the test set.)
   
