@@ -1,0 +1,11 @@
+@ATTRIBUTE Gender {Male,Female}
+@ATTRIBUTE Married {Yes,No}
+@ATTRIBUTE Education {Not Graduate,Graduate}
+@ATTRIBUTE Self_Employed {Yes,No}
+@ATTRIBUTE ApplicantIncome NUMERIC
+@ATTRIBUTE CoapplicantIncome NUMERIC
+@ATTRIBUTE LoanAmount NUMERIC
+@ATTRIBUTE Loan_Amount_Term NUMERIC 
+@ATTRIBUTE Credit_History NUMERIC
+@ATTRIBUTE Property_Area {Urban,Semiurban,Rural}
+@ATTRIBUTE class {Y,N}
