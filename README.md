@@ -2,7 +2,7 @@
 Classifier based Naive Bayes algorithm used m-estimetor=2. 
 It's been written in Python using Pandas library for manipuliate the csv data files. 
 
-*Recommendations:*
+*_Recommendations:_*
 
 1. Make sure you are using Python.7 as interpeter.
        
@@ -13,7 +13,8 @@ It's been written in Python using Pandas library for manipuliate the csv data fi
 2. Make sure you open it with PyCharm version 2019.1.4
 3. I'm using Windows 10 with 64 bits
 
-*Instructions:*
+
+*_Instructions:_*
  
 1. Run the View.
 
